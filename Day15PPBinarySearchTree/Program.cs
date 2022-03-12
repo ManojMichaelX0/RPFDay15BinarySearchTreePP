@@ -22,7 +22,8 @@ namespace Day15PPBinarySearchTree
             bst.Insert(67);
             bst.Display();
             bst.GetSize();
-            
+            bst.IfExist(63, bst);
+  
         }
     }
 }

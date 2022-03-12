@@ -68,11 +68,11 @@ namespace Day15PPBinarySearchTree
         }
         public bool IfExist(T element, BinarySearchTree<T> node)
         {
-            if(node == null)
+            if (node == null)
             {
                 return false;
             }
-            if (this.NodeData.Equals(element))
+            else if (node.NodeData.Equals(element))
             {
                 Console.WriteLine("Found the Element in BST " + " " + node.NodeData);
                 return true;
@@ -80,12 +80,12 @@ namespace Day15PPBinarySearchTree
             else
             {
                 Console.WriteLine("Current Element is {0} in BST ", node.NodeData);
-            }
+            } 
             if(element.CompareTo(node.NodeData) < 0)
             {
                 IfExist(element, node.LeftTree);
             }
-            if (element.CompareTo(node.NodeData) > 0)
+            else if (element.CompareTo(node.NodeData) > 0)
             {
                 IfExist(element, node.RightTree);
             }
