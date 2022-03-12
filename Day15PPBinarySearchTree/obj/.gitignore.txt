@@ -1,0 +1,6 @@
+Debug/
+Day15PPBinarySearchTree.csproj.nuget.dgspec.json
+Day15PPBinarySearchTree.csproj.nuget.g.props
+Day15PPBinarySearchTree.csproj.nuget.g.targets
+project.assets.json
+project.nuget.cache
